@@ -18,7 +18,7 @@ const LOCAL_RESTURL = process.env.LOCAL_RESTURL
   ? process.env.LOCAL_RESTURL
   : 'https://api.fullstack.cash/v5/'
 
-const BCHJS = require('@psf/bch-js')
+const BCHJS = require('../../../../xrg-js')
 // const BCHJS = require('../../../../bch-js')
 const bchjs = new BCHJS({ restURL: LOCAL_RESTURL })
 

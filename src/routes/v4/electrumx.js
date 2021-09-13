@@ -19,7 +19,7 @@ const config = require('../../../config')
 const RouteUtils = require('../../util/route-utils')
 const routeUtils = new RouteUtils()
 
-const BCHJS = require('@psf/bch-js')
+const BCHJS = require('../../../../xrg-js')
 const bchjs = new BCHJS()
 
 let _this
