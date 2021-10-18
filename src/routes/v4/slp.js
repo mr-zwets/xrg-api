@@ -18,8 +18,7 @@ const LOCAL_RESTURL = process.env.LOCAL_RESTURL
   ? process.env.LOCAL_RESTURL
   : 'https://api.fullstack.cash/v4/'
 
-const BCHJS = require('../../../../xrg-js')
-// const BCHJS = require('../../../../bch-js')
+const BCHJS = require('xrg-js')
 const bchjs = new BCHJS({ restURL: LOCAL_RESTURL })
 
 // Used to convert error messages to strings, to safely pass to users.

@@ -18,7 +18,7 @@ const router = express.Router()
 const util = require('util')
 util.inspect.defaultOptions = { depth: 1 }
 
-const BCHJS = require('../../../../xrg-js')
+const BCHJS = require('xrg-js')
 const bchjs = new BCHJS()
 
 // Connect the route endpoints to their handler functions.

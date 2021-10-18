@@ -17,7 +17,7 @@ const routeUtils = new RouteUtils()
 const util = require('util')
 util.inspect.defaultOptions = { depth: 1 }
 
-const BCHJS = require('../../../../../xrg-js')
+const BCHJS = require('xrg-js')
 const bchjs = new BCHJS()
 
 let _this

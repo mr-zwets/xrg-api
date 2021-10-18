@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const SLPSDK = require('../../../../xrg-js')
+const SLPSDK = require('xrg-js')
 const SLP = new SLPSDK()
 
 class Slpdb {

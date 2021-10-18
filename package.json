@@ -57,7 +57,7 @@
     "rate-limiter-flexible": "^2.0.0",
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^4.0.0",
-    "xrg-js": "../xrg-js"
+    "xrg-js": "^4.0.1"
   },
   "devDependencies": {
     "bignumber.js": "^9.0.0",
