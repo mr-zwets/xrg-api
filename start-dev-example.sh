@@ -45,7 +45,7 @@ export REDIS_HOST=127.0.0.1
 export TOKENSECRET=somelongpassword
 
 # So that bch-api can call bch-js locally.
-export LOCAL_RESTURL=http://127.0.0.1:3000/v4/
+export LOCAL_RESTURL=http://127.0.0.1:3000/v5/
 
 # Basic Authentication password
 export PRO_PASS=somerandomepassword:someotherrandompassword:aThirdPassword
